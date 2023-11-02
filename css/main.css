@@ -1,0 +1,22 @@
+/*Geral*/
+
+
+body{
+    color: black;
+    font-family: 'poppins', sans-serif;
+
+}
+
+a{
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover{
+    color:rgb(76, 76, 249);
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "poppins", sans-serif;
+}
