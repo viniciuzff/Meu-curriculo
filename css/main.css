@@ -1,28 +1,36 @@
-/*Geral*/
+/**
 
-
-body{
-    color: black;
-    font-family: 'poppins', sans-serif;
-
-}
-
-a{
-    color: blue;
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #272829;
+  }
+  
+  a {
+    color: #149ddd;
     text-decoration: none;
-}
-
-a:hover{
-    color:rgb(76, 76, 249);
+  }
+  
+  a:hover {
+    color: #37b3ed;
     text-decoration: none;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: "poppins", sans-serif;
-}
-
-/*  Botão voltar ao topo  */
-.back-to-top {
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Raleway", sans-serif;
+  }
+  
+  /*--------------------------------------------------------------
+  # Back to top button
+  --------------------------------------------------------------*/
+  .back-to-top {
     position: fixed;
     visibility: hidden;
     opacity: 0;
@@ -34,55 +42,65 @@ h1, h2, h3, h4, h5, h6 {
     height: 40px;
     border-radius: 50px;
     transition: all 0.4s;
-}
-.back-to-top i {
+  }
+  
+  .back-to-top i {
     font-size: 28px;
     color: #fff;
     line-height: 0;
-}
-.back-to-top:hover{
+  }
+  
+  .back-to-top:hover {
     background: #2eafec;
     color: #fff;
-}
-.back-to-top.active{
+  }
+  
+  .back-to-top.active {
     visibility: visible;
     opacity: 1;
-}
-
-/*  Cabeçalho    */
-#header {
+  }
+  
+  /*--------------------------------------------------------------
+  # Header
+  --------------------------------------------------------------*/
+  #header {
     position: fixed;
     top: 0;
     left: 0;
     bottom: 0;
     width: 300px;
     transition: all ease-in-out 0.5s;
+    z-index: 9997;
+    transition: all 0.5s;
     padding: 0 15px;
     background: #040b14;
     overflow-y: auto;
-}
-
-#header .profile img{
+  }
+  
+  #header .profile img {
     margin: 15px auto;
     display: block;
     width: 120px;
     border: 8px solid #2c2f3f;
-}
-#header .profile h1 {
+  }
+  
+  #header .profile h1 {
     font-size: 24px;
     margin: 0;
     padding: 0;
     font-weight: 600;
-    /*-moz-text-align-last: center;*/
+    -moz-text-align-last: center;
     text-align-last: center;
     font-family: "Poppins", sans-serif;
-}
-#header .profile h1 a, 
-#header .profile h1 a:hover{
+  }
+  
+  #header .profile h1 a,
+  #header .profile h1 a:hover {
     color: #fff;
     text-decoration: none;
-}
-#header .profile .social-links  a {
+  }
+  
+  #header .profile .social-links a {
     font-size: 18px;
     display: inline-block;
     background: #212431;
@@ -95,59 +113,61 @@ h1, h2, h3, h4, h5, h6 {
     width: 36px;
     height: 36px;
     transition: 0.3s;
-}
-
-#header .profile .social-links a:hover {
+  }
+  
+  #header .profile .social-links a:hover {
     background: #149ddd;
     color: #fff;
     text-decoration: none;
   }
-/* fim header */ 
-
-#main {
+  
+  #main {
     margin-left: 300px;
-}
-.container,
-.container-fluid {
-    padding-right: 30px;
+  }
+  
+  .container,
+  .container-fluid {
     padding-left: 30px;
-}
-
-@media (max-width: 1199px) {
+    padding-right: 30px;
+  }
+  
+  @media (max-width: 1199px) {
     #header {
-        left: -300px;
+      left: -300px;
     }
-
+  
     #main {
-        margin-left: 0;
+      margin-left: 0;
     }
-
+  
     .container,
     .container-fluid {
-        padding-left: 12px;
-        padding-right: 12px;
+      padding-left: 12px;
+      padding-right: 12px;
     }
-}
-
-/*--------------------------------------------------------------
-# Nav Menu
---------------------------------------------------------------*/
-/* Desktop Navigation */
-
-.nav-menu{
+  }
+  
+  /*--------------------------------------------------------------
+  # Navigation Menu
+  --------------------------------------------------------------*/
+  /* Desktop Navigation */
+  .nav-menu {
     padding: 30px 0 0 0;
-}
-.nav-menu * {
+  }
+  
+  .nav-menu * {
     margin: 0;
     padding: 0;
     list-style: none;
-}
-.nav-menu>ul>li {
+  }
+  
+  .nav-menu>ul>li {
     position: relative;
     white-space: nowrap;
-}
-.nav-menu a,
-.nav-menu a:focus {
+  }
+  
+  .nav-menu a,
+  .nav-menu a:focus {
     display: flex;
     align-items: center;
     color: #a8a9b4;
@@ -155,29 +175,32 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 8px;
     transition: 0.3s;
     font-size: 15px;
-}
-.nav-menu a i, 
-.nav-menu a:focus i {
+  }
+  
+  .nav-menu a i,
+  .nav-menu a:focus i {
     font-size: 24px;
     padding-right: 8px;
-    color: #6f7180;;
-}
-.nav-menu a:hover,
-.nav-menu .active,
-.nav-menu .active:focus,
-.nav-menu li:hover>a {
+    color: #6f7180;
+  }
+  
+  .nav-menu a:hover,
+  .nav-menu .active,
+  .nav-menu .active:focus,
+  .nav-menu li:hover>a {
     text-decoration: none;
     color: #fff;
-}
-.nav-menu a:hover i,
-.nav-menu .active i,
-.nav-menu .active:focus i,
-.nav-menu li:hover>a i {
-  color: #149ddd;
-}
-
-/* Mobile Nav */
-.mobile-nav-toggle {
+  }
+  
+  .nav-menu a:hover i,
+  .nav-menu .active i,
+  .nav-menu .active:focus i,
+  .nav-menu li:hover>a i {
+    color: #149ddd;
+  }
+  
+  /* Mobile Navigation */
+  .mobile-nav-toggle {
     position: fixed;
     right: 15px;
     top: 15px;
@@ -185,8 +208,8 @@ h1, h2, h3, h4, h5, h6 {
     border: 0;
     font-size: 24px;
     transition: all 0.4s;
-    outline: none;
-    background: #149ddd;
+    outline: none !important;
+    background-color: #149ddd;
     color: #fff;
     width: 40px;
     height: 40px;
@@ -196,88 +219,110 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 0;
     border-radius: 50px;
     cursor: pointer;
-}
-.mobile-nav-active {
+  }
+  
+  .mobile-nav-active {
     overflow: hidden;
-}
-.mobile-nav-active #header {
+  }
+  
+  .mobile-nav-active #header {
     left: 0;
-}
-
-/* Hero Section */
+  }
+  
+  /*--------------------------------------------------------------
+  # Hero Section
+  --------------------------------------------------------------*/
 #hero {
     width: 100%;
     height: 100vh;
     background: url("../img/hero.jpg") top center;
     background-size: cover;
 }
-#hero:before {
+  
+  #hero:before {
     content: "";
-    background: rgba(24, 5, 21, 0.2);
+    background: rgba(5, 13, 24, 0.3);
     position: absolute;
-    top: 0;
-    right: 0;
     bottom: 0;
+    top: 0;
     left: 0;
+    right: 0;
     z-index: 1;
-}
-#hero .hero-container {
+  }
+  
+  #hero .hero-container {
     position: relative;
     z-index: 2;
     min-width: 300px;
-}
-#hero h1 {
+  }
+  
+  #hero h1 {
     margin: 0 0 10px 0;
     font-size: 64px;
     font-weight: 700;
     line-height: 56px;
     color: #fff;
-}
-#hero p {
+  }
+  
+  #hero p {
     color: #fff;
     margin-bottom: 50px;
     font-size: 26px;
     font-family: "Poppins", sans-serif;
-}
-#hero p span{
+  }
+  
+  #hero p span {
     color: #fff;
     padding-bottom: 4px;
     letter-spacing: 1px;
-    border-bottom: 3px solid #2eafec;
-}
-
-@media (min-width: 1024px) {
+    border-bottom: 3px solid #149ddd;
+  }
+  
+  @media (min-width: 1024px) {
     #hero {
-        background-attachment: fixed;
+      background-attachment: fixed;
     }
-}
-@media (max-width: 768px) {
-    #hero h1{
-        font-size: 28px;
-        line-height: 36px;
+  }
+  
+  @media (max-width: 768px) {
+    #hero h1 {
+      font-size: 28px;
+      line-height: 36px;
     }
-}
-
-/* Section Geral */
-section {
+  
+    #hero h2 {
+      font-size: 18px;
+      line-height: 24px;
+      margin-bottom: 30px;
+    }
+  }
+  
+  /*--------------------------------------------------------------
+  # Sections General
+  --------------------------------------------------------------*/
+  section {
     padding: 60px 0;
     overflow: hidden;
-}
-.section-bg {
+  }
+  
+  .section-bg {
     background: #f5f8fd;
-}
-.section-title {
+  }
+  
+  .section-title {
     padding-bottom: 30px;
-}
-.section-title h2{
+  }
+  
+  .section-title h2 {
     font-size: 32px;
     font-weight: bold;
     margin-bottom: 20px;
     padding-bottom: 20px;
     position: relative;
     color: #173b6c;
-}
-.section-title h2:after{
+  }
+  
+  .section-title h2::after {
     content: "";
     position: absolute;
     display: block;
@@ -286,50 +331,55 @@ section {
     background: #149ddd;
     bottom: 0;
     left: 0;
-}
-.section-title p {
+  }
+  
+  .section-title p {
     margin-bottom: 0;
-}
-
-/* Sobre = about */
-.about .content h3{
+  }
+  
+  /*--------------------------------------------------------------
+  # About
+  --------------------------------------------------------------*/
+  .about .content h3 {
     font-weight: 700;
     font-size: 26px;
     color: #173b6c;
-}
-.about .content ul{
+  }
+  
+  .about .content ul {
     list-style: none;
     padding: 0;
-}
-.about .content ul li {
+  }
+  
+  .about .content ul li {
     margin-bottom: 20px;
     display: flex;
     align-items: center;
-}
-.about .content ul strong{
+  }
+  
+  .about .content ul strong {
     margin-right: 10px;
-}
+  }
+  
 .about .content ul i {
     font-size: 16px;
     margin-right: 5px;
     color: #149ddd;
     line-height: 0;
 }
-.about .content p:last-child{
+.about .content p:last-child {
     margin-bottom: 0;
 }
 
-/* ====== Feitos =======*/
+/* ========  Feitos  ========== */
 
 .facts {
     padding-bottom: 30px;
 }
-
 .facts .count-box {
     padding: 30px;
     width: 100%;
 }
-
 .facts .count-box i {
     display: block;
     font-size: 44px;
@@ -337,101 +387,262 @@ section {
     float: left;
     line-height: 0;
 }
-
-.facts .count-box span {
+.facts .count-box span{
     font-size: 48px;
     line-height: 40px;
     display: block;
     font-weight: 700;
-    color: #040b14;
+    color: #050d18;
     margin-left: 60px;
 }
 .facts .count-box p{
     padding: 15px 0 0 0;
     margin: 0 0 0 60px;
-    font-family: 'poppins', sans-serif;
+    font-family: "Raleway", sans-serif;
     color: #173b6c;
 }
 
-/* Habiliadades */
-.skills .progress{
-    height: 60px;
-    display: block;
-    background: none;
-    border-radius: 0;
+/* Habilhades */
+.skills .progress {
+  height: 60px;
+  display: block;
+  background: none;
+  border-radius: 0;
 }
-
-.skills .progress .skill{
-    padding: 0;
-    margin: 0 0 6px 0;
-    text-transform: uppercase;
-    display: block;
-    font-weight: 600;
-    color: #173b6c;
+.skills .progress .skill {
+  padding: 0;
+  margin: 0 0 6px 0;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 600;
+  color: #050d18;  
 }
-
-.skills .progress .skill .val{
-    float: right;
-    font-style: normal;
+.skills .progress .skill .val {
+  float: right;
+  font-style: normal;
+  color: #149ddd;
 }
-
 .skills .progress-bar-wrap{
-    background: #c2ecff;
-    height: 10px;
+  background: #e0e0e0;
+  height: 10px;
 }
-
 .skills .progress-bar{
-    width: 1px;
-    height: 10px;
-    transition: 0.9s;
-    background: #149ddd;
+  width: 1px;
+  height: 10px;
+  transition: 0.9s;
+  background: #149ddd;
 }
-
 /* resumo */
 .resume .resume-title{
-    font-size: 26px;
-    font-weight: 700;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    color: #050d18;
-  }
-  .resume .resume-item {
-    padding: 0 0 20px 20px;
-    margin-top: -2px;
-    border-left: 2px solid #2eafec;
-    position: relative;
-  }
-  .resume .resume-item h4 {
-    line-height: 18px;
-    font-size: 18px;
-    font-weight: 600;
-    text-transform: uppercase;
-    font-family: "Poppins", sans-serif;
-    color: #040b14;
-    margin-bottom: 10px;
-  }
-  .resume .resume-item h5{
-    font-size: 16px;
-    background: #e4edf9;
-    padding: 5px 15px;
-    display: inline-block;
-    font-weight: 600;
-    margin-bottom: 10px;
-  }
-  .resume .resume-item ul {
-    padding-left: 20px;
-  }
-  .resume .resume-item ul li {
-    padding-bottom: 0;
-  }
-  .resume .resume-item::before {
-    content: "";
-    position: absolute;
-    width: 16px;
-    height: 16px;
-    border-radius: 50px;
-    left: -9px;
-    top: 0;
-    background: #fff;
-    border: 2px solid #149ddd;
-  }
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #050d18;
+}
+.resume .resume-item {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 2px solid #2eafec;
+  position: relative;
+}
+.resume .resume-item h4 {
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #040b14;
+  margin-bottom: 10px;
+}
+.resume .resume-item h5{
+  font-size: 16px;
+  background: #e4edf9;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.resume .resume-item ul {
+  padding-left: 20px;
+}
+.resume .resume-item ul li {
+  padding-bottom: 0;
+}
+.resume .resume-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #fff;
+  border: 2px solid #149ddd;
+}
+/* Portfolio === Filtro  */
+.portfolio .portfolio-item {
+  margin-bottom: 30px;
+}
+.portfolio #portfolio-filters {
+  padding: 0;
+  margin: 0 auto 35px auto;
+  list-style: none;
+  text-align: center;
+  background: #fff;
+  border-radius: 50px;
+}
+.portfolio #portfolio-filters li {
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 15px 8px 15px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #272829;
+  margin-bottom: 5px;
+  transition: all 0.3s ease-in-out; 
+}
+.portfolio #portfolio-filters li:hover, 
+.portfolio #portfolio-filters li.filter-active {
+  color: #149ddd;
+}
+.portfolio .portfolio-wrap {
+  transition: 0.3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+.portfolio .portfolio-wrap::before {
+  content: "";
+  background: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  transition: all ease-in-out 0.3s;
+  z-index: 2;
+  opacity: 0;
+}
+.portfolio .portfolio-wrap .portfolio-links {
+  opacity: 1;
+  left: 0;
+  right: 0;
+  bottom: -60px;
+  z-index: 3;
+  position: absolute;
+  transition: all ease-in-out;
+  display: flex;
+  justify-content: center;
+}
+.portfolio .portfolio-wrap .portfolio-links a {
+  color: #fff;
+  font-size: 28px;
+  text-align: center;
+  background: rgba(20, 157, 221, 0.75);
+  transition: 0.3s;
+  width: 50%;
+}
+.portfolio .portfolio-wrap .portfolio-links a:hover {
+  background: rgba(20, 157, 221, 0.95);
+}
+.portfolio .portfolio-wrap .portfolio-links a+a {
+  border-left: 1px solid #149ddd;
+}
+.portfolio .portfolio-wrap:hover::before {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 1;
+}
+.portfolio .portfolio-wrap:hover .portfolio-links{
+  opacity: 1;
+  bottom: 0;
+}
+/*  Serviços  */
+
+/* Avaliações */
+
+/*  formulario  */
+.contact {
+  padding-bottom: 130px;
+}
+.contact .info {
+  padding: 30px;
+  background: #fff;
+  width: 100%;
+  box-shadow: 0 0 24px rgba(0, 0, 0, 0.12);
+}
+.contact .info i {
+  font-size: 20px;
+  color: #149ddd;
+  float: left;
+  width: 44px;
+  height: 44px;
+  background: #dff3fc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+.contact .info h4 {
+  padding: 0 0 0 60px;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #050d18;
+}
+.contact .info p {
+  padding: 0 0 10px 60px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #173b6c;
+}
+.contact .info .email p {
+  padding-top: 5px;
+}
+.contact .info .address:hover i, 
+.contact .info .email:hover i,
+.contact .info .phone:hover i {
+  background: #149ddd;
+  color: #fff;
+}
+.contact .php-email-form {
+  width: 100%;
+  padding: 30px;
+  background: #fff;
+  box-shadow: 0 0 24px rgba(0, 0, 0, 0.12);
+}
+.contact .php-email-form .form-group {
+  padding-bottom: 8px;
+}
+.contact .php-email-form label {
+  padding-bottom: 8px;
+}
+.contact .php-email-form input,
+.contact .php-email-form textarea {
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+}
+.contact .php-email-form input {
+  height: 44px;
+}
+.contact .php-email-form textarea {
+  padding: 10px 15px;
+}
+.contact .php-email-form button[type=submit] {
+  background: #149ddd;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+.contact .php-email-form button[type=submit]:hover {
+  background: #2eafec;
+}
