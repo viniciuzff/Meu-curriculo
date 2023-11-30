@@ -1,348 +1,904 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ricardo Chery | Dev</title>
+    <meta content="Portifolio pessoal Ricardo Chery" name="description" />
+    <meta
+      content="Ricardo, Chery, Portifolio, Senai, Curriculo"
+      name="keywords"
+    />
 
-  <title>Ricardo Chery | Dev</title>
-  <meta content="Portifolio pessoal Ricardo Chery" name="description">
-  <meta content="Ricardo, Chery, Portifolio, Senai, Curriculo" name="keywords">
+    <!--- Favicons -->
+    <link href="img/fotoPerfil3.jpg" rel="icon" />
 
-  <!--- Favicons -->
-  <link href="img/fotoPerfil3.jpg" rel="icon">
+    <!-- Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- Google Fonts-->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <!--- validador CSS BootStrap-->
+    <link rel="stylesheet" href="validador/aos/aos.css" />
+    <link rel="stylesheet" href="validador/bootstrap/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="validador/bootstrap-icons/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="validador/boxicons/css/boxicons.css" />
+    <link rel="stylesheet" href="validador/glightbox/css/glightbox.css" />
+    <link rel="stylesheet" href="validador/swiper/swiper-bundle.min.css" />
 
-  <!--- validador CSS BootStrap-->
-  <link rel="stylesheet" href="validador/aos/aos.css">
-  <link rel="stylesheet" href="validador/bootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" href="validador/bootstrap-icons/bootstrap-icons.css">
-  <link rel="stylesheet" href="validador/boxicons/css/boxicons.css">
-  <link rel="stylesheet" href="validador/glightbox/css/glightbox.css">
-  <link rel="stylesheet" href="validador/swiper/swiper-bundle.min.css">
+    <!---base do css-->
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
 
-  <!---base do css-->
-  <link rel="stylesheet" href="css/main.css">
+  <body>
+    <!--botão para alternar a navegação móvel-->
+    <i class="bi bi-list mobile-nav-toggle d-xl-none"> </i>
 
-</head>
-
-<body>
-  <!--botão para alternar a navegação móvel-->
-  <i class="bi bi-list mobile-nav-toggle d-xl-none"> </i>
-
-  <header id="header">
-    <div class="d-flex flex-column">
-
-      <div class="profile">
-        <img src="img/fotoPerfil3.jpg" alt="" class="img-fluid rounded-circle">
-        <h1 class="text-light"><a href="index.html">Ricardo Chery</a></h1>
-        <div class="social-links mt-3 text-center">
-          <a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoicHQifQ%3D%3D%22%7D"
-            class="twitter"><i class="bx bxl-twitter"></i></a>
-          <a href="https://www.facebook.com/campaign/landing.php?&campaign_id=1661784632&extra_1=s%7Cc%7C320269324047%7Ce%7Cfacebook%7C&placement=&creative=320269324047&keyword=facebook&partner_id=googlesem&extra_2=campaignid%3D1661784632%26adgroupid%3D63686352403%26matchtype%3De%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-541132862%26loc_physical_ms%3D1001773%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=EAIaIQobChMIg8jjm4DCggMVsVlIAB3PBQj9EAAYASAAEgJudfD_BwE"
-            class="facebook"><i class="bx bxl-facebook"></i></a>
-          <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-          <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-          <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+    <header id="header">
+      <div class="d-flex flex-column">
+        <div class="profile">
+          <img
+            src="img/fotoPerfil3.jpg"
+            alt=""
+            class="img-fluid rounded-circle"
+          />
+          <h1 class="text-light"><a href="index.html">Ricardo Chery</a></h1>
+          <div class="social-links mt-3 text-center">
+            <a
+              href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoicHQifQ%3D%3D%22%7D"
+              class="twitter"
+              ><i class="bx bxl-twitter"></i
+            ></a>
+            <a
+              href="https://www.facebook.com/campaign/landing.php?&campaign_id=1661784632&extra_1=s%7Cc%7C320269324047%7Ce%7Cfacebook%7C&placement=&creative=320269324047&keyword=facebook&partner_id=googlesem&extra_2=campaignid%3D1661784632%26adgroupid%3D63686352403%26matchtype%3De%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-541132862%26loc_physical_ms%3D1001773%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=EAIaIQobChMIg8jjm4DCggMVsVlIAB3PBQj9EAAYASAAEgJudfD_BwE"
+              class="facebook"
+              ><i class="bx bxl-facebook"></i
+            ></a>
+            <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+            <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+            <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+          </div>
         </div>
+
+        <!--Menu navegação-->
+        <nav id="navbar" class="nav-menu navbar">
+          <ul>
+            <li>
+              <a href="#hero" class="nav-link scrollto active"
+                ><i class="bx bx-home"></i> <span>Home</span></a
+              >
+            </li>
+            <li>
+              <a href="#about" class="nav-link scrollto"
+                ><i class="bx bx-user"></i> <span>Sobre</span></a
+              >
+            </li>
+            <li>
+              <a href="#resume" class="nav-link scrollto"
+                ><i class="bx bx-file-blank"></i> <span>Resumo</span></a
+              >
+            </li>
+            <li>
+              <a href="#portfolio" class="nav-link scrollto"
+                ><i class="bx bx-book-content"></i> <span>Portfolio</span></a
+              >
+            </li>
+            <li>
+              <a href="#contact" class="nav-link scrollto"
+                ><i class="bx bx-envelope"></i> <span>Contato</span></a
+              >
+            </li>
+          </ul>
+        </nav>
+        <!-- Fim menu -->
       </div>
+    </header>
+    <!-- Fim cabeçalho -->
 
-      <!--Menu navegação-->
-      <nav id="navbar" class="nav-menu navbar">
-        <ul>
-          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
-          <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>Sobre</span></a></li>
-          <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resumo</span></a></li>
-          <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i>
-              <span>Portfolio</span></a></li>
-          <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contato</span></a></li>
-        </ul>
-      </nav><!-- Fim menu -->
-    </div>
-  </header><!-- Fim cabeçalho -->
+    <!-- HERO -->
+    <section
+      id="hero"
+      class="d-flex flex-column justify-content-center align-items-center"
+    >
+      <div class="hero-container" data-aos="fade-in">
+        <h1>Ricardo Chery</h1>
+        <p>
+          Eu sou estudante de
+          <span
+            class="typed"
+            data-typed-items="Front End, Cloud, Gestão da tecnologia, Python"
+          ></span>
+        </p>
+      </div>
+    </section>
+    <!-- Fim Hero -->
 
-  <!-- HERO -->
-  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
-    <div class="hero-container" data-aos="fade-in">
-      <h1>Ricardo Chery</h1>
-      <p>Eu sou estudante de <span class="typed"
-          data-typed-items="Front End, Cloud, Gestão da tecnologia, Python"></span></p>
-    </div>
-  </section><!-- Fim Hero -->
-
-  <main id="main">
-
-    <!-- ======= Sobre Section ======= -->
-    <section id="about" class="about">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Sobre</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
-            consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
-            in iste officiis commodi quidem hic quas.</p>
-        </div> <!-- fim section-title ======= -->
-
-        <div class="row">
-          <div class="col-lg-4" data-aos="fade-right">
-            <img src="img/hero-bg2.jpg" class="img-fluid" alt="" width="600px" height="600px">
-          </div>
-          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-            <h3> Estudante de Front-End </h3>
-            <p class="fst-italic">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit autem, odit hic repellendus optio nulla vero
-              corporis numquam aperiam cumque obcaecati ad error ullam labore dicta atque voluptatem voluptatum cum!
-            </p>
-
-            <div class="row">
-              <div class="col-lg-6">
-                <ul>
-                  <li> <i class="bi bi-chevron-right"></i> <strong>Aniversario:</strong> <span>27 Agosto 1990</span>
-                  </li>
-                  <li> <i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.meusite.com</span> </li>
-                  <li> <i class="bi bi-chevron-right"></i> <strong>Telefone: </strong> <span>(11) 9 1234 - 5678</span>
-                  </li>
-                  <li> <i class="bi bi-chevron-right"></i> <strong>Cidade:</strong> <span>São Paulo - SP</span> </li>
-                </ul>
-              </div>
-
-              <div class="col-lg-6">
-                <ul>
-                  <li> <i class="bi bi-chevron-right"></i> <strong>Idade:</strong> <span>33</span> </li>
-                  <li> <i class="bi bi-chevron-right"></i> <strong>Escolaridade:</strong> <span>Técnologo</span> </li>
-                  <li> <i class="bi bi-chevron-right"></i> <strong>E-mail:</strong>
-                    <span>gustavo.feriani@sp.senai.br</span>
-                  </li>
-                  <li> <i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Disponível</span> </li>
-                </ul>
-              </div>
-            </div> <!-- fim div 2 row ======= -->
+    <main id="main">
+      <!-- ======= Sobre Section ======= -->
+      <section id="about" class="about">
+        <div class="container">
+          <div class="section-title">
+            <h2>Sobre</h2>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti recusandae culpa cupiditate modi
-              quisquam dolorum itaque voluptatem impedit dolore fuga illum repellendus obcaecati quia fugit porro nobis,
-              quidem quo accusamus!
+              Magnam dolores commodi suscipit. Necessitatibus eius consequatur
+              ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
+              quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
+              Quia fugiat sit in iste officiis commodi quidem hic quas.
             </p>
+          </div>
+          <!-- fim section-title ======= -->
 
-          </div><!-- ===== fim div fade left-->
-        </div> <!-- ======= fim div row ======= -->
-      </div> <!-- ======= fim container ======= -->
-    </section><!-- ======= Fim Section About======= -->
+          <div class="row">
+            <div class="col-lg-4" data-aos="fade-right">
+              <img
+                src="img/hero-bg2.jpg"
+                class="img-fluid"
+                alt=""
+                width="600px"
+                height="600px"
+              />
+            </div>
+            <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+              <h3>Estudante de Front-End</h3>
+              <p class="fst-italic">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit
+                autem, odit hic repellendus optio nulla vero corporis numquam
+                aperiam cumque obcaecati ad error ullam labore dicta atque
+                voluptatem voluptatum cum!
+              </p>
 
-    <section id="facts" class="facts">
-      <div class="container">
+              <div class="row">
+                <div class="col-lg-6">
+                  <ul>
+                    <li>
+                      <i class="bi bi-chevron-right"></i>
+                      <strong>Aniversario:</strong> <span> ------ </span>
+                    </li>
+                    <li>
+                      <i class="bi bi-chevron-right"></i>
+                      <strong>Website:</strong> <span>www.meusite.com</span>
+                    </li>
+                    <li>
+                      <i class="bi bi-chevron-right"></i>
+                      <strong>Telefone: </strong>
+                      <span>(11) 9 0000 - 0000</span>
+                    </li>
+                    <li>
+                      <i class="bi bi-chevron-right"></i>
+                      <strong>Cidade:</strong> <span>São Paulo - SP</span>
+                    </li>
+                  </ul>
+                </div>
 
-        <div class="section-title">
-          <h2>Feitos</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
-            consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
-            in iste officiis commodi quidem hic quas.</p>
+                <div class="col-lg-6">
+                  <ul>
+                    <li>
+                      <i class="bi bi-chevron-right"></i>
+                      <strong>Idade:</strong> <span> -- </span>
+                    </li>
+                    <li>
+                      <i class="bi bi-chevron-right"></i>
+                      <strong>Escolaridade:</strong> <span> ----- </span>
+                    </li>
+                    <li>
+                      <i class="bi bi-chevron-right"></i>
+                      <strong>E-mail:</strong>
+                      <span> ------ </span>
+                    </li>
+                    <li>
+                      <i class="bi bi-chevron-right"></i>
+                      <strong>Freelance:</strong> <span>Disponível</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <!-- fim div 2 row ======= -->
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Deleniti recusandae culpa cupiditate modi quisquam dolorum
+                itaque voluptatem impedit dolore fuga illum repellendus
+                obcaecati quia fugit porro nobis, quidem quo accusamus!
+              </p>
+            </div>
+            <!-- ===== fim div fade left-->
+          </div>
+          <!-- ======= fim div row ======= -->
         </div>
+        <!-- ======= fim container ======= -->
+      </section>
+      <!-- ======= Fim Section About======= -->
 
-        <div class="row no-gutters">
-
-          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
-            <div class="count-box">
-              <i class="bi bi-award"></i>
-              <span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1"
-                class="purecounter"></span>
-              <p><strong>Cursos</strong> Realizados</p>
-            </div>
+      <section id="facts" class="facts">
+        <div class="container">
+          <div class="section-title">
+            <h2>Feitos</h2>
+            <p>
+              Magnam dolores commodi suscipit. Necessitatibus eius consequatur
+              ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
+              quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
+              Quia fugiat sit in iste officiis commodi quidem hic quas.
+            </p>
           </div>
 
-          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="100">
-            <div class="count-box">
-              <i class="bi bi-file-earmark-code"></i>
-              <span data-purecounter-start="0" data-purecounter-end="2" data-purecounter-duration="1"
-                class="purecounter"></span>
-              <p><strong>Projetos</strong> realizados</p>
+          <div class="row no-gutters">
+            <div
+              class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch"
+              data-aos="fade-up"
+            >
+              <div class="count-box">
+                <i class="bi bi-award"></i>
+                <span
+                  data-purecounter-start="0"
+                  data-purecounter-end="5"
+                  data-purecounter-duration="1"
+                  class="purecounter"
+                ></span>
+                <p><strong>Cursos</strong> Realizados</p>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="count-box">
+                <i class="bi bi-file-earmark-code"></i>
+                <span
+                  data-purecounter-start="0"
+                  data-purecounter-end="2"
+                  data-purecounter-duration="1"
+                  class="purecounter"
+                ></span>
+                <p><strong>Projetos</strong> realizados</p>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="count-box">
+                <i class="bi bi-clock-fill"></i>
+                <span
+                  data-purecounter-start="0"
+                  data-purecounter-end="1300"
+                  data-purecounter-duration="1"
+                  class="purecounter"
+                ></span>
+                <p><strong>Horas</strong> de treinamentos</p>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <div class="count-box">
+                <i class="bi bi-people"></i>
+                <span
+                  data-purecounter-start="0"
+                  data-purecounter-end="4"
+                  data-purecounter-duration="1"
+                  class="purecounter"
+                ></span>
+                <p><strong>Idiomas</strong> falados</p>
+              </div>
             </div>
           </div>
-
-          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="200">
-            <div class="count-box">
-              <i class="bi bi-clock-fill"></i>
-              <span data-purecounter-start="0" data-purecounter-end="1300" data-purecounter-duration="1"
-                class="purecounter"></span>
-              <p><strong>Horas</strong> de treinamentos</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="300">
-            <div class="count-box">
-              <i class="bi bi-people"></i>
-              <span data-purecounter-start="0" data-purecounter-end="4" data-purecounter-duration="1"
-                class="purecounter"></span>
-              <p><strong>Idiomas</strong> falados</p>
-            </div>
-          </div>
-
         </div>
+        <!-- == Fim div container == -->
+      </section>
+      <!-- Section Feitos-->
 
-      </div> <!-- == Fim div container == -->
-    </section><!-- Section Feitos-->
+      <section id="skills" class="skills section-bg">
+        <div class="container">
+          <div class="section-title">
+            <h2>Habilidades</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+              accumsan finibus leo, at sagittis nunc egestas eget. In non lacus
+              sit amet dui semper luctus ac id purus.
+            </p>
+          </div>
+          <!-- ======= fim seção titulo ======= -->
 
-
-
-    <section id="skills" class="skills section-bg">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Habilidades</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras accumsan finibus leo, at sagittis nunc egestas
-            eget. In non lacus sit amet dui semper luctus ac id purus.
-          </p>
-        </div> <!-- ======= fim seção titulo ======= -->
-
-        <div class="row skills-content">
-
-          <div class="col-lg-6" data-aos="fade-up">
-
-            <div class="progress">
-              <span class="skill"> HTML <i class="val">100%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill"> CSS <i class="val">85%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill"> JavaScript <i class="val">75%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-
-          </div> <!--  fim  face-up 1  -->
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="progress">
-              <span class="skill"> Photoshop <i class="val">75%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+          <div class="row skills-content">
+            <div class="col-lg-6" data-aos="fade-up">
+              <div class="progress">
+                <span class="skill"> HTML <i class="val">100%</i></span>
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="100"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
                 </div>
               </div>
 
-            </div>
-
-            <div class="progress">
-              <span class="skill"> Ilustrator <i class="val">75%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress">
+                <span class="skill"> CSS <i class="val">85%</i></span>
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="85"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
                 </div>
               </div>
 
+              <div class="progress">
+                <span class="skill"> JavaScript <i class="val">75%</i></span>
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
             </div>
+            <!--  fim  face-up 1  -->
 
-            <div class="progress">
-              <span class="skill"> liguagem qlqr <i class="val">75%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+              <div class="progress">
+                <span class="skill"> Photoshop <i class="val">75%</i></span>
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
                 </div>
               </div>
 
+              <div class="progress">
+                <span class="skill"> Ilustrator <i class="val">75%</i></span>
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill"> liguagem qlqr <i class="val">75%</i></span>
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
             </div>
-          </div> <!--  fim  fade-up 2  -->
+            <!--  fim  fade-up 2  -->
+          </div>
+          <!-- ======= fim Row ======= -->
+        </div>
+        <!-- ==== Fim  container  ======= -->
+      </section>
+      <!-- ==== Fim  Habilidades  ======= -->
 
-        </div> <!-- ======= fim Row ======= -->
-      </div> <!-- ==== Fim  container  ======= -->
-    </section> <!-- ==== Fim  Habilidades  ======= -->
+      <section id="resume" class="resume">
+        <div class="container">
+          <div class="section-title">
+            <h2>Sumario/Resumo</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          </div>
+          <!-- ======= fim seção titulo ======= -->
 
-    <section id="resume" class="resume">
-      <div class="container">
+          <div class="row">
+            <div class="col-lg-6" data-aos="fade-up">
+              <h3 class="resume-title">Resumo</h3>
+              <div class="resume-item pb-0">
+                <h4>Ricardo Chery</h4>
+                <p><em>Texto sobre o seu amigo</em></p>
+                <ul>
+                  <li>Cidade - SP</li>
+                  <li>(11) 90000-0000</li>
+                  <li>email@gmail.com</li>
+                </ul>
+              </div>
 
-        <div class="section-title"> 
-          <h2>Sumario/Resumo</h2>
-          <p>
-           Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-          </p>
-        </div> <!-- ======= fim seção titulo ======= -->
+              <h3 class="resume-title">Escolaridade</h3>
+              <div class="resume-item">
+                <h4>----</h4>
+                <h5>---</h5>
+                <p><em> --- </em></p>
+              </div>
 
-        <div class="row">
+              <div class="resume-item">
+                <h4>----</h4>
+                <h5>---</h5>
+                <p><em>---</em></p>
+              </div>
+            </div>
 
-          <div class="col-lg-6" data-aos="fade-up">
-            <h3 class="resume-title"> Resumo </h3>
-            <div class="resume-item pb-0">
-              <h4>Ricardo Chery</h4>
-              <p><em>Texto sobre o seu amigo</em></p>
-              <ul>
-                <li> ----- </li>
-                <li>----- </li>
-                <li> ----- </li>
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+              <h3 class="resume-title">Experiências Profissionais</h3>
+
+              <div class="resume-item">
+                <h4>----</h4>
+                <h5>-----</h5>
+                <p><em> ---- </em></p>
+                <ul>
+                  <li>-----</li>
+                  <li>-----</li>
+                </ul>
+              </div>
+
+              <div class="resume-item">
+                <h4>-----</h4>
+                <h5>-----</h5>
+                <p><em> - -- -</em></p>
+                <p>----------</p>
+              </div>
+              <div class="resume-item">
+                <h4>----</h4>
+                <h5>-----</h5>
+                <p><em> ---- </em></p>
+                <ul>
+                  <li>-------</li>
+                  <li>-----</li>
+                </ul>
+              </div>
+            </div>
+            <!-- ======= fim fade-up 2 ======= -->
+          </div>
+          <!-- ==== Fim  Row  ======= -->
+        </div>
+        <!-- ==== Fim  container  ======= -->
+      </section>
+      <!-- ==== Fim  resumo  ======= -->
+
+      <!-- ==== Seçao Portfolio  ======= -->
+      <section id="portfolio" class="portfolio section-bg">
+        <div class="container">
+          <div class="section-title">
+            <h2>Portfolio | Certificados ou Cursos</h2>
+            <p>Conheça os meus certificados</p>
+          </div>
+
+          <div class="row" data-aos="fade-up">
+            <div class="col-lg-12 d-flex justify-content-center">
+              <ul id="portfolio-filters">
+                <li data-filter="*" class="filter-active">Todos</li>
+                <li data-filter=".filter-prog">Programação</li>
+                <li data-filter=".filter-bd">Banco de Dados</li>
+                <li data-filter=".filter-front">Front-End</li>
               </ul>
             </div>
+          </div>
+          <!-- ==== Fim filtro  ======= -->
 
-            <h3 class="resume-title"> Escolaridade </h3>
-            <div class="resume-item">
-              <h4> ----</h4>
-              <h5> --- </h5>
-              <p><em> --- </em></p>
+          <div
+            class="row portfolio-container"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <div class="col-lg-4 col-md-6 portfolio-item filter-prog">
+              <div class="portfolio-wrap">
+                <img src="img/portfolio/python.png" alt="" class="img-fluid" />
+                <div class="portfolio-links">
+                  <a
+                    href="img/portfolio/python.png"
+                    data-gallery="portfolioGallery"
+                    class="portfolio-lightbox"
+                    title="Certificado de Python"
+                    alt=""
+                  >
+                    <i class="bx bx-plus"></i
+                  ></a>
+
+                  <a
+                    href="detalhes.html"
+                    title="Mais informações... teste de conteúdo"
+                    target="_blank"
+                  >
+                    <i class="bx bx-link"></i>
+                  </a>
+                </div>
+                <!-- ==== FIM portfolio-links  ======= -->
+              </div>
             </div>
-            <div class="resume-item">
-              <h4> ----</h4>
-              <h5>--- </h5>
-              <p><em>---</em></p>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-front">
+              <div class="portfolio-wrap">
+                <img src="img/portfolio/html.png" alt="" class="img-fluid" />
+                <div class="portfolio-links">
+                  <a
+                    href="img/portfolio/html.png"
+                    data-gallery="portfolioGallery"
+                    class="portfolio-lightbox"
+                    title="Certificado de HTML"
+                    alt=""
+                  >
+                    <i class="bx bx-plus"></i
+                  ></a>
+
+                  <a
+                    href="detalhes.html"
+                    title="Mais informações... teste de conteúdo"
+                    target="_blank"
+                  >
+                    <i class="bx bx-link"></i>
+                  </a>
+                </div>
+                <!-- ==== FIM portfolio-links  ======= -->
+              </div>
             </div>
-          </div><!-- ======= fim fade-up 1 ======= -->
-          
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            
-          </div> <!-- ======= fim fade-up 2 ======= -->
 
-        </div> <!-- ==== Fim  Row  ======= -->
-      </div> <!-- ==== Fim  container  ======= --> 
-    </section> <!-- ==== Fim  resumo  ======= -->
+            <div class="col-lg-4 col-md-6 portfolio-item filter-prog">
+              <div class="portfolio-wrap">
+                <img src="img/portfolio/c++.png" alt="" class="img-fluid" />
+                <div class="portfolio-links">
+                  <a
+                    href="img/portfolio/c++.png"
+                    data-gallery="portfolioGallery"
+                    class="portfolio-lightbox"
+                    title="Certificado de C++"
+                    alt=""
+                  >
+                    <i class="bx bx-plus"></i
+                  ></a>
 
+                  <a
+                    href="detalhes.html"
+                    title="Mais informações... teste de conteúdo"
+                    target="_blank"
+                  >
+                    <i class="bx bx-link"></i>
+                  </a>
+                </div>
+                <!-- ==== FIM portfolio-links  ======= -->
+              </div>
+            </div>
 
+            <div class="col-lg-4 col-md-6 portfolio-item filter-bd">
+              <div class="portfolio-wrap">
+                <img src="img/portfolio/sql.png" alt="" class="img-fluid" />
+                <div class="portfolio-links">
+                  <a
+                    href="img/portfolio/sql.png"
+                    data-gallery="portfolioGallery"
+                    class="portfolio-lightbox"
+                    title="Certificado de SQL"
+                    alt=""
+                  >
+                    <i class="bx bx-plus"></i
+                  ></a>
 
+                  <a
+                    href="detalhes.html"
+                    title="Mais informações... teste de conteúdo"
+                    target="_blank"
+                  >
+                    <i class="bx bx-link"></i>
+                  </a>
+                </div>
+                <!-- ==== FIM portfolio-links  ======= -->
+              </div>
+            </div>
 
+            <div class="col-lg-4 col-md-6 portfolio-item filter-front">
+              <div class="portfolio-wrap">
+                <img src="img/portfolio/css.png" alt="" class="img-fluid" />
+                <div class="portfolio-links">
+                  <a
+                    href="img/portfolio/css.png"
+                    data-gallery="portfolioGallery"
+                    class="portfolio-lightbox"
+                    title="Certificado de CSS"
+                    alt=""
+                  >
+                    <i class="bx bx-plus"></i
+                  ></a>
 
+                  <a
+                    href="detalhes.html"
+                    title="Mais informações... teste de conteúdo"
+                    target="_blank"
+                  >
+                    <i class="bx bx-link"></i
+                  ></a>
+                </div>
+                <!-- ==== FIM portfolio-links  ======= -->
+              </div>
+            </div>
 
+            <div class="col-lg-4 col-md-6 portfolio-item filter-prog">
+              <div class="portfolio-wrap">
+                <img src="img/portfolio/java.png" alt="" class="img-fluid" />
+                <div class="portfolio-links">
+                  <a
+                    href="img/portfolio/java.png"
+                    data-gallery="portfolioGallery"
+                    class="portfolio-lightbox"
+                    title="Certificado de JAVA"
+                    alt=""
+                  >
+                    <i class="bx bx-plus"></i
+                  ></a>
 
+                  <a
+                    href="detalhes.html"
+                    title="Mais informações... teste de conteúdo"
+                    target="_blank"
+                  >
+                    <i class="bx bx-link"></i
+                  ></a>
+                </div>
+                <!-- ==== FIM portfolio-links  ======= -->
+              </div>
+            </div>
 
+            <div class="col-lg-4 col-md-6 portfolio-item filter-bd">
+              <div class="portfolio-wrap">
+                <img src="img/portfolio/mysql.png" alt="" class="img-fluid" />
+                <div class="portfolio-links">
+                  <a
+                    href="img/portfolio/mysql.png"
+                    data-gallery="portfolioGallery"
+                    class="portfolio-lightbox"
+                    title="Certificado de MySQL"
+                    alt=""
+                  >
+                    <i class="bx bx-plus"></i
+                  ></a>
 
+                  <a
+                    href="detalhes.html"
+                    title="Mais informações... teste de conteúdo"
+                    target="_blank"
+                  >
+                    <i class="bx bx-link"></i
+                  ></a>
+                </div>
+                <!-- ==== FIM portfolio-links  ======= -->
+              </div>
+            </div>
 
+            <div class="col-lg-4 col-md-6 portfolio-item filter-front">
+              <div class="portfolio-wrap">
+                <img
+                  src="img/portfolio/javascript.png"
+                  alt=""
+                  class="img-fluid"
+                />
+                <div class="portfolio-links">
+                  <a
+                    href="img/portfolio/javascript.png"
+                    data-gallery="portfolioGallery"
+                    class="portfolio-lightbox"
+                    title="Certificado de JavaScript"
+                    alt=""
+                  >
+                    <i class="bx bx-plus"></i
+                  ></a>
 
+                  <a
+                    href="detalhes.html"
+                    title="Mais informações... teste de conteúdo"
+                    target="_blank"
+                  >
+                    <i class="bx bx-link"></i
+                  ></a>
+                </div>
+                <!-- ==== FIM portfolio-links  ======= -->
+              </div>
+            </div>
 
-  </main> <!-- Fim Main -->
+            <div class="col-lg-4 col-md-6 portfolio-item filter-bd">
+              <div class="portfolio-wrap">
+                <img
+                  src="img/portfolio/mongoDb.png"
+                  alt=""
+                  class="img-fluid"
+                  width="800px"
+                  height="500px"
+                />
+                <div class="portfolio-links">
+                  <a
+                    href="img/portfolio/mongoDb.png"
+                    data-gallery="portfolioGallery"
+                    class="portfolio-lightbox"
+                    title="Certificado de Mongobd"
+                    alt=""
+                  >
+                    <i class="bx bx-plus"></i
+                  ></a>
 
-  <!-- validador dos Arquivos JS  -->
-  <script src="validador/purecounter/purecounter_vanilla.js"></script>
-  <script src="validador/aos/aos.js"></script>
-  <script src="validador/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="validador/glightbox/js/glightbox.min.js"></script>
-  <script src="validador/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="validador/swiper/swiper-bundle.min.js"></script>
-  <script src="validador/typed.js/typed.umd.js"></script>
-  <script src="validador/waypoints/noframework.waypoints.js"></script>
+                  <a
+                    href="detalhes.html"
+                    title="Mais informações... teste de conteúdo"
+                    target="_blank"
+                  >
+                    <i class="bx bx-link"></i
+                  ></a>
+                </div>
+                <!-- ==== FIM portfolio-links  ======= -->
+              </div>
+            </div>
+          </div>
+          <!-- ==== Fim ROW  ======= -->
+        </div>
+        <!-- ==== Fim container  ======= -->
+      </section>
+      <!-- ==== Fim Portfolio  ======= -->
 
-  <!-- Template Main JS -->
-  <script src="js/main.js"></script>
+      <section id="services" class="services">
+        <div class="container">
+          <div class="section-title">
+            <h2>Servicos / conhecimentos</h2>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Repellendus, fugiat minus, facere, quam pariatur ratione provident
+              assumenda alias consequuntur quibusdam harum dolor quae. Ea hic
+              nesciunt, expedita excepturi vitae dolorum.
+            </p>
+          </div>
 
+          Conteudo sobre os Conhecimentos.
+        </div>
+      </section>
+      <!-- ==== Fim Servicos  ======= -->
 
+      <!-- ==== Avaliações  ======= -->
+      <section id="testimonials" class="testimonials">
+        <div class="container">
+          <div class="section-title">
+            <h2>Avaliações</h2>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Repellendus, fugiat minus, facere, quam pariatur ratione provident
+              assumenda alias consequuntur quibusdam harum dolor quae. Ea hic
+              nesciunt, expedita excepturi vitae dolorum.
+            </p>
+          </div>
+          Conteúdo sobre as Avaliações!
+        </div>
+      </section>
+      <!-- ==== Fim Avaliações  ===== -->
 
+      <!-- ==== Contato  ======= -->
+      <section id="contact" class="contact">
+        <div class="container">
+          <div class="section-title">
+            <h2>Contatos</h2>
+            <p>Entre em Contato.</p>
+          </div>
 
+          <div class="row" data-aos="fade-in">
+            <div class="col-lg-5 d-flex align-items-stretch">
+              <div class="info">
+                <div class="address">
+                  <i class="bi bi-geo-alt"></i>
+                  <h4>Endereço:</h4>
+                  <p>
+                    R: Jaguaré Mirim, 71 <br />
+                    Vila Leopoldina - SP
+                  </p>
+                </div>
 
+                <div class="email">
+                  <i class="bi bi-envelope"></i>
+                  <h4>Email:</h4>
+                  <p>email@email.com</p>
+                </div>
 
+                <div class="phone">
+                  <i class="bi bi-whatsapp"></i>
+                  <h4>Telefone:</h4>
+                  <p>(11) 9 0000 - 0000</p>
+                </div>
 
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.1813462112377!2d-46.73517884776865!3d-23.525979087554926!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef8b811e8e3a1%3A0xa7564bb4c78f41b3!2sSenai%20Vila%20Leopoldina%20-%20Mariano%20Ferraz!5e0!3m2!1spt-BR!2sbr!4v1701297636469!5m2!1spt-BR!2sbr"
+                  width="100%"
+                  height="290"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+            </div>
+            <!-- ==== Contatos  ======= -->
 
+            <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+              <form action="#" method="#" role="form" class="php-email-form">
+                <div class="row">
+                  <div class="form-group col-md-6">
+                    <label for="name"> Seu Nome: *</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      name="name"
+                      id="name"
+                    />
+                  </div>
 
+                  <div class="form-group col-md-6">
+                    <label for="email">Email: *</label>
+                    <input
+                      type="email"
+                      class="form-control"
+                      name="email"
+                      id="email"
+                      placeholder="email@emil.com"
+                    />
+                  </div>
+                </div>
+                <!-- ==== fim row  ======= -->
+                <div class="form-group">
+                  <label for="subject"> Password: *</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    name="subject"
+                    id="subject"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="message">Mensagem: *</label>
+                  <textarea
+                    class="form-control"
+                    name="message"
+                    id="message"
+                    rows="10"
+                  >
+                  </textarea>
+                </div>
 
+                <div class="text-center">
+                  <button type="submit">Enviar</button>
+                </div>
+              </form>
+            </div>
+            <!-- ==== Formulario  ======= -->
+          </div>
+        </div>
+        <!-- ==== FIM  container  ======= -->
+      </section>
+      <!-- ==== FIM  Contato  ======= -->
+    </main>
+    <!-- Fim Main -->
 
+    <!-- validador dos Arquivos JS  -->
+    <script src="validador/purecounter/purecounter_vanilla.js"></script>
+    <script src="validador/aos/aos.js"></script>
+    <script src="validador/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="validador/glightbox/js/glightbox.min.js"></script>
+    <script src="validador/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="validador/swiper/swiper-bundle.min.js"></script>
+    <script src="validador/typed.js/typed.umd.js"></script>
+    <script src="validador/waypoints/noframework.waypoints.js"></script>
 
-</body>
-
+    <!-- Template Main JS -->
+    <script src="js/main.js"></script>
+  </body>
 </html>
